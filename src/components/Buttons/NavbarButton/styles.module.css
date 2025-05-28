@@ -1,0 +1,25 @@
+.button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.1 ease-in-out;
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+.solid {
+    background: var(--gray-700);
+}
+
+.transparent {
+    background: transparent;
+    border: none;
+}
+

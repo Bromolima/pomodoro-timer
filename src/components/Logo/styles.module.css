@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo svg {
+    width: 64px;
+    height: 64px;
+    color: var(--primary);
+}

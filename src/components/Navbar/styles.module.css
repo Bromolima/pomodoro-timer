@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background: var(--gray-800);
+    padding: 4px;
+    gap: 4px;
+    border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+.configPanel {
+    display: flex;
+    flex-direction: column;
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 24px;
+    width: 100%;
+    gap: 16px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}

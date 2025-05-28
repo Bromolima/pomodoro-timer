@@ -1,0 +1,7 @@
+.bottomPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
