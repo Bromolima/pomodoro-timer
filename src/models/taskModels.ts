@@ -5,5 +5,5 @@ export type TaskModel = {
     startDate: number; 
     completeDate: number | null;
     interruptDate: number | null;
-    type: 'workTime' | 'sortBreakTime' | 'longBreakTime';
+    type: 'workTime' | 'shortBreakTime' | 'longBreakTime';
 }
